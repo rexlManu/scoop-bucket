@@ -1,16 +1,21 @@
 {
-    "version": "0.2.1-b",
+    "version": "0.2.0",
     "description": "Insomnium is a fast local API testing tool that is privacy-focused and 100% local. For testing GraphQL, REST, WebSockets and gRPC. This is a fork of Kong/insomnia    ",
     "homepage": "https://archgpt.dev/insomnium",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ArchGPT/insomnium/releases/download/core%400.2.1-b/insomnia-0.2.1-b-full.nupkg",
-            "hash": "sha1:096ea7e9ab7737a83a912eaeb1c1f7d0cdfc6db3"
+            "url": "https://github.com/ArchGPT/insomnium/releases/download/core%400.2.0/insomnia-0.2.0-full.nupkg",
+            "hash": "sha1:ea0e817e135e446890144496070e7eac83a6882f"
         }
     },
     "extract_dir": "lib\\net45",
-    "shortcuts": [["Insomnium.exe", "Insomnium"]],
+    "shortcuts": [
+        [
+            "Insomnium.exe",
+            "Insomnium"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/ArchGPT/insomnium/releases",
         "regex": "\"core@([\\d.]+)\""
